@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.header{
+    background-color: lightgrey;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    background-color: lightgrey;
+    border: 1px solid black;
+    width: 30px;
+    
+}
+
+.nav{
+    background-color: lightgrey;
+    border: 1px solid black;
+    width: 30px;
+}
+
+.billede{
+    border: 1px solid black;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.kirsten {
+    display: grid;
+    grid-template-areas: 'header header' 'billede billede' 'one two' 'three four' 'five six' 'footer footer';
+    gap: 15px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.billede {
+    grid-area: billede;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three{
+    grid-area: three;
+}
+
+.four{
+    grid-area: four;
+}
+
+.five{
+    grid-area: five;
+}
+
+.six{
+    grid-area: six;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+
+.footer{
+    background: lightgrey;
+    text-align: center;
+}
